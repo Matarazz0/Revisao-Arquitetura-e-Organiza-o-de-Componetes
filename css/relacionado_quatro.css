@@ -1,0 +1,91 @@
+body {
+	padding: 0;
+	margin: 0;
+}
+
+#cabecario {
+	background-image: url(para_06.jpg);
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	color: #fff;
+	padding-top: 300px;
+	padding-bottom: 200px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.cab {
+	width: 500px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 50px;
+}
+
+#principal {
+	padding-top: 200px;
+	padding-bottom: 200px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column; 
+}
+
+.main_div {
+	margin: 10px;
+}
+
+.paralax {
+	width: 100%;
+	background-image: url(para_02.png);
+	background-position: center button;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	color: #fff;
+	margin-top: 100px;
+	padding-top: 200px;
+	margin-bottom: -200px;
+	padding-bottom: 100px;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+}
+
+#rodape {
+	width: 100%;
+	height: 300px;
+	background-color: grey;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	color: #fff;
+}
+
+a {
+	margin: 10px;
+
+}
+button {
+	border-radius: 5px;
+	color: #000;
+	transition: all 0.2s linear;
+}
+
+span {
+	background-color: grey;
+	padding: 4px;
+	border-radius: 10px;
+	color: #fff; 
+}
+
+button:hover {
+	background-color: black;
+	color:#fff;
+	padding: 10px;
+}
